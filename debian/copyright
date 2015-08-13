@@ -1,0 +1,6 @@
+Files: debian/*
+Copyright (c) 2015 alexander krohn <ak@systemstart.net>
+License: GPL 2
+
+Files: *
+License: GPL 2

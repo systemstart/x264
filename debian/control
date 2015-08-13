@@ -1,0 +1,20 @@
+Source: x264
+Maintainer: alexander <github@systemstart.net>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.3
+Build-Depends:  
+	debhelper (>= 8),
+	autoconf, 
+	yasm, 
+	automake (>= 1.6),
+	dh-autoreconf
+Build-Conflicts:
+	autoconf (= 2.13),
+	automake (= 1.4)
+
+Package: x264
+Architecture: any
+Description: x264 encoder
+	x264 encoder
+
